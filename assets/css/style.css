@@ -1,0 +1,1010 @@
+.conteiner {
+    max-width: 1280px;
+}
+
+.conteiner__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-conteiner {
+    display: flex;
+    justify-content: left;
+}
+
+.logo {
+    padding-left: 25px;
+    padding-top: 6px;
+    padding-right: 47px;
+    }
+
+.networks {
+    padding-top: 21.21px;
+    display: flex;
+    align-items: start;
+}
+
+.networks-text {
+    display: flex;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 141.6%;
+    color: #000000;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+.subButtons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainButton {
+    padding-left: 5px;
+    padding-top: 1.79px;
+    padding-bottom: 7.88px;
+}
+
+.humber-btn__icon {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.videoSurveillance {
+    padding-left: 50.64px;
+}
+
+.mainButton {
+    cursor: pointer;
+}
+
+
+.rightConteiner {
+    display: flex;
+    justify-content: right;
+}
+
+.phoneNumber {
+    padding-top: 24px;
+    color: #1F6786;
+}
+.personalAccount__btn {
+    display: flex;
+    width: 91px;
+    height: 31px;
+    background: #EFF8FC;
+    border-radius: 8px;
+    justify-content: right;
+    align-items: center;
+    margin-top: 18px;
+    margin-left: 15px;
+}
+.personalAccount__btn-link {
+    display: flex;
+}
+.personalAccaunt-Ikon {
+    padding-right: 6.21px;
+}
+.personalAccaunt-text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5569px;
+    line-height: 141.6%;
+    color: #1F6786;
+    padding-right: 10.19px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-disabled {
+    display: none !important;
+}
+
+.swiper-wrapper {
+    max-height: 358px;
+    max-width: 1280px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after{
+    content: none !important;
+}
+
+.slide-btn-right {
+    padding-right: 25.5px; 
+}
+
+.slide-btn-left {
+    padding-left:  25.5px;
+}
+
+.swiper-buttons {
+    display: inline;
+    padding-top: 165px;
+    padding-bottom: 165px;
+}
+
+.slider {
+    margin-bottom: 70px;
+}
+
+.title {
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 106.6%;
+    padding-left: 26px;
+
+    color: #000000;
+}
+
+.text {
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 112.6%;
+    color: #000000;
+    padding-top: 35px;
+    padding-left: 26px;
+}
+
+.information-title {
+    padding-top: 35px;
+    padding-left: 26px;
+    padding-bottom: 32px;
+
+    font-family: 'CoFo Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 112.6%;
+
+    color: #000000;
+}
+
+.mini-title {
+    padding-top: 32px;
+    padding-left: 25px;
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 112.6%;
+    
+    color: #000000;
+}
+
+.conteiners__services {
+    display: flex;
+    margin-left: 26px;
+    margin-top: 42px;
+}
+
+.conteiners__service {
+    display: flex;
+}
+
+.conteiners__services .conteiners__service:not(:first-child) {
+    margin-left: 90px;
+}
+
+.sevice__text {    
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 112.6%;
+    
+
+    color: #000000;
+}
+
+.service__icon {
+    padding-right: 10px;
+}
+
+.specifyAddress__conteiner {
+    margin-left: 26px;
+    margin-top: 49px;
+    background: #EFF8FC;
+    border-radius: 24.2621px;
+    max-width: 839px;
+}
+
+.specifyAddress__link {
+    padding-left: 2px;
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 112.6%;
+    /* identical to box height, or 23px */
+    color: #1F6786;
+}
+
+.link__conteiner {
+    padding-top: 16px;
+    padding-left: 20px;
+    display: flex;
+}
+
+.specifyAddress-text {
+    padding-left: 20px;
+    padding-bottom: 16px;
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 112.6%;
+    color: #000000;
+}
+
+.conteiner__application {
+    position: absolute;
+    width: 316px;
+    height: 398px;
+    left: 938px;
+    top: 510px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 5.55066px 16.5132px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+
+}
+
+.application-title {
+    padding-top: 28px;
+    padding-left: 26px;
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 112.6%;
+
+    color: #000000;
+}
+
+.application-line {
+    padding-left: 26px;
+}
+
+.application-form-title {
+    padding-top: 11.5px;
+    padding-left: 26px;
+}
+
+.configParam {
+    display: flex;
+}
+
+.application-title-mini {
+    padding-left: 26px;
+    padding-top: 14px;
+
+    font-family: 'CoFo Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 112.6%;  
+
+    color: #808080;
+}
+
+.configText {
+    display: flex;
+    align-items: end;
+    padding-left: 65px;
+}
+
+.configText2 {
+    display: flex;
+    align-items: end;
+    padding-left: 89px;
+}
+
+.noSelected-btn {
+    padding-top: 10px;
+    padding-left: 57px;
+}
+
+.connectionAmount-btn {
+    padding-left: 38px;
+}
+
+.configParam-bottom {
+    padding-top: 20px;
+}
+
+.application-input {
+    margin-left: 92px;
+    margin-bottom: 5px;
+    max-width: 134px;
+    max-height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #1F6786;
+    border-radius: 10px;
+    text-indent: 11px;
+}
+
+.application-input2 {
+    margin-left: 89px;
+    margin-bottom: 5px;
+    max-width: 134px;
+    max-height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #1F6786;
+    border-radius: 10px;
+    text-indent: 11px;
+}
+
+.phone {
+    margin-left: 73px;
+    margin-bottom: 5px;
+    max-width: 134px;
+    max-height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #1F6786;
+    border-radius: 10px;
+    text-indent: 11px;
+}
+
+.submitApplication-btn {
+    position: absolute;
+    top: 930px;
+    left: 939px;
+    position: absolute;
+    max-width: 316px;
+    max-height: 44px;
+
+    background: #C51F1E;
+    border-radius: 13px;
+
+}
+
+.swiper {
+    max-width: 100%;
+    margin-left: 25px !important;
+}
+
+.swiper-slide img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide {
+    text-align: left !important;
+}
+
+.gradient {
+    width: 100%; /* Ширина блока */
+    height: 30%; /* Высота блока */
+    background: linear-gradient(to right, #ffffff 0%, transparent 100%); 
+}
+
+.slide__backgraund {
+    width: 285px;
+    height: 323px;
+
+    background: #EFF8FC;
+    box-shadow: 0px 5.55066px 16.5132px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.tariff1__Swiper {
+    display: inline-block;
+    max-width: 865px;
+}
+
+.conectSettings {
+    display: flex;
+}
+
+.speedNumber {
+    
+    margin-top: 32px;
+    margin-left: 30px;
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50.4479px;
+    line-height: 80%;
+    /* or 40px */
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #C51F1E;
+
+
+}
+
+.mb-sec {
+    
+    margin-left: 10px;
+    margin-top: 53px;
+    
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.4059px;
+    line-height: 80%;
+    /* or 16px */
+    text-align: center;
+
+    color: #C51F1E;
+
+
+}
+
+.tariff1__Swiper-miniTitle {
+    padding-left: 30px;
+    padding-top: 24px;
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 98%;
+
+    color: #000000;
+
+
+}
+
+.tariff1__Swiper-list {   
+    margin-left: 50px;
+    margin-top: 15px;  
+    list-style-: disc;
+}
+
+
+
+
+.slide-selected-btn {
+    margin-top: auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.slide__backgraund {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tariff__title {
+    padding-top: 83px;
+    padding-left: 26px;
+    padding-bottom: 32px;
+    
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 106.6%;
+
+
+    color: #000000;
+}
+
+.accessSpeed-conteiner {
+    display: flex;
+    align-items: left;
+    margin: 35px 0 0 26px;
+}
+
+.accessSpeed-btn {
+    margin-left: 31.21px;
+
+    width: 185.42px;
+    height: 94.55px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 3.48041px 10.3542px rgba(0, 0, 0, 0.15);
+    border-radius: 12.5405px;
+}
+
+.accessSpeed-btn:hover, .accessSpeed-btn:focus {
+    background-color: #C51F1E;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.accessSpeed-miniTitle {
+    margin: 24px 71px 11.2px 71.4px;
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.1947px;
+    line-height: 98%;
+
+}
+
+.mb-sec2 {
+    margin: 0 64.1px 22.5px 64.25px;
+}
+
+.accessSpeed-title {
+    margin-top: 80px;
+    margin-left: 26px;
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 106.6%;
+
+
+    color: #000000;
+}
+
+.equipmentForBuisness-title {
+    margin-top: 104px;
+    margin-bottom: 29px;
+    margin-left: 26px;
+    
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.066%;
+    font-style: normal;
+}
+
+.equipmentForBuisness-conteiner {
+    display: flex;
+}
+
+
+
+.equipmentForBuisness-miniTitle {
+    /* Офисные Wi-Fi Роутеры */
+    padding-left: 29px;
+    margin-bottom: 12px;
+    margin-top: 30px;
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 98%;
+    /* identical to box height, or 20px */
+
+    color: #1F6786;
+
+
+}
+.equipmentForBuisness-text {
+   padding-left: 29px;
+
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 98%;
+    
+
+    color: #000000;
+
+
+}
+.equipmentForBuisness-img {
+    margin-left: 36px;
+}
+
+
+.about-title {
+    margin-top: 62px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 106.6%;
+
+    color: #000000;
+}
+.about-conteiner {
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-left: 25px;
+  width: 598px;
+}
+
+.turnkey-icon {
+    margin-bottom: 20px;
+}
+
+.top-left {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.top-right {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.bottom-left {
+  margin-top: 20px;
+    grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.bottom-right {
+    margin-top: 20px;
+    grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.videoSurveillance-title {
+    margin-top: 80px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+
+    font-family: "Albert Sans", sans-serif;    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 106.6%;
+    /* identical to box height, or 43px */
+
+    color: #000000;
+}
+
+.videoSurveillance-conteiner {
+    /* Rectangle 218 */
+    margin-left: 25px;
+    width: 844px;
+    
+
+    background: #FFFFFF;
+    box-shadow: 0px 5.55066px 16.5132px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+
+}
+.videoSurveillance-mini-title {
+    /* В каждом тарифе */
+    padding: 30px 0 0 30px;
+    font-family: "Albert Sans", sans-serif; 
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 141.6%;
+    /* or 42px */
+
+    color: #000000;
+
+
+}
+
+.videoSurveillance-list {
+    list-style-type: disc;
+    margin-top: 10px;
+}
+.videoSurveillance-list-mini-title {
+    /* Разрешение HD 1280*720 */
+    margin-bottom: 11px;
+    margin-left: 41px;
+
+    font-family: "Albert Sans", sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 141.6%;
+    /* or 25px */
+
+    color: #000000;
+
+
+}
+.videoSurveillance-text {
+    /* Облачное хранение архива 3 дня */
+    padding-top: 11px;
+    padding-bottom: 13px;
+    margin-left: 41px;
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 141.6%;
+    /* or 25px */
+
+    color: #000000;
+
+
+}
+
+.videoSurveillance-text-end {
+    padding-top: 11px;
+    padding-bottom: 32px;
+    margin-left: 41px;
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 141.6%;
+    /* or 25px */
+
+    color: #000000;
+}
+
+.videoControl-conteiner {
+    display: flex;    
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.videoControl-conteiner-backgraund {
+    display: flex;
+    width: 400px;
+    height: 541px;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+    /* Rectangle 329 */
+
+    background: #EFF8FC;
+    box-shadow: 0px 5.55066px 16.5132px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+
+}
+.videoControl-conteiner-inform {
+    display: inline;
+    margin-top: 21px;
+}
+
+.title-conteiner {
+    
+}
+
+.title-text {
+    /* видеоконтроль */
+    display: inline;
+    margin-top: 21px;
+    margin-left: 20px;
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 80%;
+    /* identical to box height, or 13px */
+    text-align: center;
+
+    color: #C51F1E;
+
+
+}
+
+.videoControl-title {
+    /* ЛАЙТ */
+    
+    
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80%;
+    /* identical to box height, or 32px */
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #C51F1E;
+
+
+}
+.videoControl-title-mini {
+    /* Использует вашу основную сеть интернет */
+    margin-left: 20px;
+    margin-top: 17px;
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 117.1%;
+    /* or 23px */
+
+    color: #000000;
+}
+.videoControl-conteiner-list {
+    margin-top: 13px;
+    list-style-type: disc;
+    margin-left: 41px;
+}
+.videoControl-text1 {
+    /* Необходимо подключить стабильный интернет 2 Мбит/с на 1 камеру */
+
+    
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 128%;
+    /* or 23px */
+
+    color: #000000;
+
+
+}
+.videoControl-text2 {
+    /* На любой интернет-сети */
+    margin-top: 20px;
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 128%;
+    /* or 20px */
+
+    color: #C51F1E;
+
+
+}
+.videoControl-text3 {
+    /* Камеры в собственность */
+    margin-top: 10px;
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 128%;
+    /* or 20px */
+
+    color: #C51F1E;
+
+
+}
+.videoControl-btn {
+    display: flex;
+    margin-left: 25px;
+    margin-right: 26px;
+    margin-top: 49px;
+    margin-bottom: 30px;
+}
+
+.videoControl-text4 {
+    /* Скидка от 3-х камер */
+    margin-top: 10px;
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 128%;
+    /* or 20px */
+
+    color: #C51F1E;
+}
+
+.remoteMobileAccess-conteiner {
+    display: flex;
+    margin-top: 71px;
+}
+.remoteMobileAccess-icon {
+    margin-left: 25px;
+}
+.remoteMobileAccess-info-conteiner {
+    margin-left: 48px;
+
+}
+.remoteMobileAccess-title {
+    /* Удаленный доступ с мобильным приложением */
+    margin-bottom: 30px;
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 106.6%;
+    /* or 43px */
+
+    color: #000000;
+
+}
+
+.remoteMobileAccess-list {
+    list-style-type: disc;
+    margin-left: 29px;
+}
+
+.remoteMobileAccess-list-text {
+    /* Просматривайте онлайн видео и получите доступ к видеоархиву со смартфона из любой точки мира */
+    
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 141.6%;
+    /* or 25px */
+
+    color: #000000;
+
+
+}
+
+.remoteMobileAccess-demo-conteiner {
+    /* Rectangle 331 */
+    display: flex;
+
+    margin-top: 31px;
+
+    width: 525px;
+    height: 128px;
+
+
+    background: #EFF8FC;
+    border-radius: 24.2621px;
+
+}
+.remoteMobileAccess-demo-text {
+    /* Сканируйте QR-код или переходите по ссылке, скачивайте для просмотра демо-кабинета. */
+    margin-left: 20px;
+    margin-top: 10px;
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 141.6%;
+    /* or 25px */
+
+    color: #000000;
+}
+
+.remoteMobileAccess-demo-img-conteiner {
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-left: 20px;
+}
