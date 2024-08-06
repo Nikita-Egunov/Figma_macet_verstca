@@ -1008,3 +1008,242 @@
     margin-bottom: 14px;
     margin-left: 20px;
 }
+
+.relibleInternet-img {
+    margin-left: 25px;
+    margin-top: 80px;
+}
+
+.cloudATS-title {
+    /* Облачная АТС Дом.ру Бизнес - это выгодно и надежно */
+    margin-left: 25px;
+    margin-top: 80.5px;
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 106.6%;
+    /* or 43px */
+
+    color: #000000;
+}
+.cloudATS-conteiners {
+    margin-top: 30px;
+    margin-left: 26px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Создает две колонки равной ширины */
+    gap: 112px;
+}
+.cloudATS-conteiner {
+    display: flex;
+    align-content: center;
+}
+.cloudATS-conteiner-img {
+}
+.cloudATS-conteiner-text {
+    display: flex;
+    align-items: center;
+}
+
+.slide-end__backgraund {
+    /* Rectangle 417 */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 285px;
+    height: 358px;
+    
+
+    background: #EFF8FC;
+    box-shadow: 0px 5.55066px 16.5132px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.slide-end-conteiner {
+    
+}
+
+.slider-end-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.slider-end-icon1 {
+    
+    margin-top: 19px;
+    margin-left: 20px;
+    width: 53px;
+    height: 53px;
+}
+
+.slider-end-icon2 {
+    /* Frame 74 */
+    
+}
+
+.slider-end-mini-title {
+    /* Облачная АТС Бизнес */
+    margin-left: 20px;
+    margin-top: 21px;
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 98%;
+/* identical to box height, or 18px */
+
+    color: #000000;
+}
+.slide-end-text {
+    /* Для продаж и поддержки в небольших компаниях */
+    margin-top: 10px;
+    margin-left: 20px;
+
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 98%;
+    /* or 18px */
+
+    color: #000000;
+
+
+}
+.slide-end-list {
+    list-style-type: disc;
+    margin-top: 15px;
+    margin-left: 45px;
+}
+.slide-selected-btn {
+}
+
+.swiper-end-title {
+    margin-top: 80px;
+    margin-left: 17px;
+    margin-bottom: 33px;
+
+    /* Тарифы */
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 106.6%;
+    /* identical to box height, or 43px */
+
+    color: #000000;
+}
+
+.tariff2__Swiper {
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+.footer {
+    margin-top: 99px;
+    /* Rectangle 342 */
+    display: flex;
+    color: #FFFFFF;
+    width: 1280px;
+    height: 209px;
+
+
+    background: #222222;
+
+}
+
+.footer-icon {
+    margin-top: 57px;
+    margin-left: 25px;
+}
+
+.footer-text {
+    /* ⓒ 2024. Сайт не является средством массовой информации и действует на основании партнерского договора с АО “ЭР-Телеком Холдинг”. */
+    margin-top: 59px;
+    margin-left: 57px;
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 98%;
+    /* or 18px */
+
+
+}
+
+.footer-link-conteiner {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 51px;
+}
+.footer-link {
+    /* Rectangle 353 */
+    margin-right: 48px;
+    padding: 11px;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 13px;
+
+    /* Политика конфиденциальности */
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 98%;
+    /* identical to box height, or 18px */
+
+    color: #FFFFFF;
+
+
+}
+
+.telephone-conteiner {
+    margin-top: 60px;
+    margin-left: 118px;
+}
+
+.telephone {
+    display: flex;
+    margin-bottom: 34px;
+}
+.telephone-icon {
+}
+.telephone-text-conteiner {
+}
+.telephone-number {
+    margin-bottom: 3px;
+
+    /* +7 (800) 333-79-22 */
+
+    
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 113%;
+    /* identical to box height, or 18px */
+
+    color: #FFFFFF;
+
+
+}
+.telephone-text {
+    /* Подключение */
+
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 98%;
+    /* identical to box height, or 13px */
+
+    color: #FFFFFF;
+}

@@ -30,3 +30,12 @@ var swiper = new Swiper(".mySwiper", {
         prevEl: '.swiper-button-prev',
         },
     });
+
+    var swiper = new Swiper(".tariff2__Swiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            },
+        });
